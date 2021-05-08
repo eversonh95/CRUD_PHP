@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="index.css"><!--Importa o CSS-->
+    <title>CADASTRA-SE</title>
+	<header><!--Cabeçalho-->
+        CRUD
+    </header>
+</head>
+<body>
+    
+
+<div><!--DIV do formulario-->
+	<form action="createUsuario.php" method="POST"><!--Esse é o formulario que ira receber os dados do usuario-->
+		<h2>Faça seu cadastro</h2>
+	
+		<label for="nome">Nome</label><br>
+		<input type="text" name="nome" placeholder="Insira seu nome" required autofocus><!--Esse recebe o nome do usuario-->
+		<br><br>
+	
+		<label for="sobrenome">Sobrenome</label><br>
+		<input for="text" name="sobrenome" placeholder="Insira seu sobrenome" required autofocus><!--Esse o sobrenome-->
+		<br><br>
+
+        <label for="idade">Idade</label><br><!--Esse a idade-->
+		<input for="idade" name="idade" placeholder="Insira sua idade" required autofocus>
+		<br><br>
+				
+		<label name="sexo">Selecione seu sexo:</label><br>
+		<select name="sexo" id="sexo"><!--Seleciona o sexo-->
+		<option value="Masculino">Masculino</option>
+		<option value="Feminino">Feminino</option>
+		</select>
+		<br><br>
+	
+		<label for="text" name="email">E-mail</label><br><!--Esse o e-mail-->
+		<input type="email" name="email" placeholder="Digite seu e-mail  Exemplo:seu@nome.com.br" required autofocus>
+		<br><br>
+	
+		<label for="senha">Senha</label><br><!--Esse a senha-->
+		<input type="password" name="senha" placeholder="Digite sua senha" required>
+        <br><br>
+	
+		<button type="submit">Cadastrar-se</button><!--Esse botão envia os dados-->
+		<a href="login.html"><button>Voltar</button></a>
+		<br><br>
+	</form>
+</div>
+</body>
+</html>

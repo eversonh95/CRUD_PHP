@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css"><!--Importa o arquivo CSS-->
+    <title>EXCLUIR USUARIO</title>
+    <header><!--Cabeçalho-->
+        CRUD
+    </header>
+</head>
+<body>
+        
+    <div>
+        <form action="deleteUsuario.php" method="POST">
+
+            <h2>Excluir Usuario</h2>
+            <br>
+    
+            <label for="id" type="number">ID do Usuario</label><br>
+            <input type="number" name="id" placeholder="Digite o ID do Usuario a ser excluido" required autofocus>
+            <br><br>
+
+            <button type="submit">Exluir Usuario</button>
+            
+            <button><a href="home.html">Voltar</a></button>
+        
+        </form>
+    </div>
+
+</body>
+</html>

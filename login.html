@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>LOGIN</title>
+    <header><!--Cabeçalho-->
+        CRUD
+    </header>
+</head>
+<body>
+    <div>
+        <form action="validarLogin.php" method="POST"><!--Esse formilario valida o login-->
+            <h2>Faça seu Login</h2>
+            <label for="text" name="email">E-mail</label><br>
+		    <input type="email" name="email" placeholder="seu@email.com" required autofocus><!--Aqui o usuario coloca o email-->
+		    <br><br>
+
+            <label for="senha">Senha</label><br>
+		    <input type="password" name="senha" placeholder="Digite sua senha" required autofocus><!--Aqui o usuario coloca a senha-->
+            <br><br>
+             
+            <nav>
+                <button type="submit">Login</button><!--Botão que e entra no sistema-->
+                <button><a href="cadastro.html">Cadastra-se</a></button>
+            </nav>
+            <br><br>
+            
+        </form>
+    </div>    
+</body>
+</html>

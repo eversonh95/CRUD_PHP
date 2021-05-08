@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>ALTERAR DADOS</title>
+    <header><!--Cabeçalho-->
+        CRUD
+    </header>
+</head>
+<body>
+    <div><!--DIV do formulario-->
+        <!--A Ação usara o arquivo updateCliente.php e metodo a ser utilizado sera o POST-->
+        <form action="updateUsuario.php" method="POST"><!--Esse é o formulario que ira alterar os dados do usuario-->
+            <h2>Alterar dados</h2>
+            <label for="id">ID Usuario</label><br><!--Principal input sera o ID do usuario-->
+            <input type="number" name="id" placeholder="ID do usuario que sera alterado" required autofocus>
+            <br><br>
+        
+            <label for="nome">Alterar nome</label><br>
+            <input type="text" name="nome" placeholder="Insira o novo nome"  required autofocus><!--Esse altera o nome do usuario-->
+            <br><br>
+        
+            <label for="sobrenome">Alterar Sobrenome</label><br>
+            <input for="text" name="sobrenome" placeholder="Insira o novo sobrenome" required autofocus><!--Esse altera o sobrenome-->
+            <br><br>
+    
+            <label for="idade">Alterar Idade</label><br><!--Esse altera a idade-->
+            <input for="idade" name="idade" placeholder="Insira o nova idade" required autofocus>
+            <br><br>
+                    
+            <label for="sexo">Altere o sexo:</label><br>
+            <select name="sexo" id="sexo"><!--altera o sexo-->
+            <option value="Masculino">Masculino</option>
+            <option value="Feminino">Feminino</option>
+            </select>
+            <br><br>
+        
+            <label for="text" name="email">Alterar E-mail</label><br><!--Esse altera o e-mail-->
+            <input type="email" name="email" placeholder="Altere o E-mail" required autofocus>
+            <br><br>
+        
+            <label for="senha">Alterar Senha</label><br><!--Esse altera a senha-->
+            <input type="password" name="senha" placeholder="Digite sua nova senha" required>
+            <br><br>
+            
+            <button type="submit" name="update">Alterar dados</button><!--Esse botão confirma a alteração dos dados-->
+            <button><a href="home.html">Voltar</a></button>
+            <br><br>
+        </form>
+    </div>
+</body>
+</html>

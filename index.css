@@ -1,0 +1,66 @@
+header{
+    font-size: 50pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    letter-spacing: 25pt;
+}
+
+/*Esse camandos irão alterar o corpo da pagina*/
+body{
+    background-color: rgb(194, 250, 231);/*Cor do fundo da pagina*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;/*Estilo da fonte*/
+}
+
+h2{/*Esses comandos alteram os cabeçalhos do tipo h2*/
+    border-style: solid;/*Estilo da borda*/
+    border-width: 1px;/*Altera o tamanho da borda*/
+    border-radius: 15px;/*Curva da borda*/
+    margin-left: 30%;/*Espaço da margem do lado direito*/
+    margin-right: 30%;/*Espaço da margem do lado direito*/
+}
+
+/*Esses comandos alterão a divisão da tela*/ 
+div{
+    text-align: center;/*Alinha o texto para o centro da tela*/
+}
+
+
+/*Esses comandos irão alterar a barra para escrever os dados*/
+input{
+    width: 40%;/*Largura*/
+    height: 5%;/*Altura*/
+    border: 1px;/*Borda*/
+    border-radius: 5px;/*Curva da borda*/
+    padding: 10px;/*Espaçamento*/
+}
+
+/*Esses comandos irão alterar o barra de seleção*/
+select{
+    width: 42%;/*Largura*/
+    height: 5%;/*Altura*/
+    border: 1px;/*Borda*/
+    border-radius: 5px;/*Curva da borda*/
+    padding: 10px;/*Espaçamento*/
+}
+
+/*Esses comandos alteram os botões*/
+button{
+    width: 20%;/*Largura*/
+    height: 5%;/*Altura*/
+    border: 1px;/*Borda*/
+    border-radius: 5px;/*Curva da borda*/
+    padding: 10px;/*Espaçamento*/
+    text-align: center;/*Alinha o texto para o centro da tela*/
+    transition: background-color 1s;/*Faz a transição de 1 segundo quando o mouse estiver em cima*/
+}
+
+/*Esse comandos definem o que acontece quando o mouse estiver em cima do botão*/
+button:hover{
+    background-color: cornflowerblue;/*O Botão ficara dessa cor*/
+    cursor: pointer;
+}
+
+/*Esses comandos alteram o menu de navegação*/ 
+nav{
+    text-align: center;/*Alinha o texto para o centro da tela*/
+}
